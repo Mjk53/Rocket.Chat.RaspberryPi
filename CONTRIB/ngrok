@@ -1,0 +1,15 @@
+Please Keep in mind if you plan on running the ./ngrok http 300 command that this is a 8 hour session window and 
+will need to be restarted once the session has expired
+
+when running the command you should run it in screen or something equivalent otherwise if you running it in just an ssh
+window and accidently close it then the newly generated link will no longer work
+
+there is an option to use an unlimited session by going to https://ngrok.com/upgrade there you will be asked
+to register then once registered choose how you installed ngrok then follow the directions please keep in mind
+this is a free account and you are limited to 
+
+HTTP/TCP tunnels on random URLs/ports
+1 online ngrok process
+4 tunnels/ngrok process
+40 connections/minute
+
